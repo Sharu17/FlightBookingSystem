@@ -1,0 +1,10 @@
+<p>fare-component works!</p>
+<form #userPost="ngForm" (ngSubmit)="onSubmit(userPost.value)">
+    <input type="text" ngModel name="bookingId" ngModel><br><br>
+    <input type="text" ngModel name="name" ngModel><br><br>
+    <input type="text" ngModel name="card no" ngModel><br><br>
+    <input type="text" ngModel name="cvv" ngModel><br><br>
+    <input type="text" ngModel name="amountofFare" ngModel><br><br>
+    <button type="submit">Submit</button>
+    
+    </form>
